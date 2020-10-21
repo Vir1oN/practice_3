@@ -1,0 +1,204 @@
+body{
+    background: violet;
+    margin: 0;
+}
+
+.container {
+    height: 200px;
+    background: pink;
+    padding-top: 50px;
+}
+
+.header-black {
+    height: 50px;
+    background: black;
+    width: 80%;
+    margin: auto;
+}
+
+.header-white {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+    width: 80%;
+    margin: auto
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    background: silver;
+    margin: 0px;
+}
+
+.float {
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: lightskyblue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.clear {
+    clear: both;
+    background: silver;
+    height: 25px;
+}
+
+.left-block {
+    float: left;
+    height: 550px;
+    width: calc(100% / 3);
+    background: green;
+    box-sizing: border-box;
+}
+
+.left-orange {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 80%;
+    background: orange;
+}
+
+.a-left {
+    float: left;
+    height: 94%;
+    margin: 10px 0 0 0;
+    width: 50%;
+    background: #ffe5d0;
+}
+
+.b-left {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 50%;
+    height: 94%;
+    background: yellow;
+}
+
+.center-block {
+    float: left;
+    width: calc(100% / 3);
+    height: 550px;
+    background: lightskyblue;
+}
+
+.right-block {
+    float: left;
+    width: calc(100% / 3);
+    height: 550px;
+    background: #7086ff;
+}
+
+.center-red {
+    float: left;
+    margin-top: 32px;
+    background: red;
+    width: 33.3%;
+    height: 91%;
+}
+.center-yellow {
+    box-sizing: border-box;
+    padding: 0px;
+    float: left;
+    margin-top: 32px;
+    background: yellow;
+    width: 33.3%;
+    height: 91%;
+}
+.center-orange {
+    float: left;
+    margin-top: 32px;
+    background: orange;
+    width: 33.3%;
+    height: 91%;
+    box-sizing: border-box;
+}
+
+.A-c {
+    float: left;
+    margin-top: 19%;
+    width: 50%;
+    background: orange;
+    height: 90%;
+}
+
+.B-c {
+    float: left;
+    margin-top: 138%;
+    width: 50%;
+    background: red;
+    height: 50%;
+}
+
+.blue-right {
+    width: calc(100%/3);
+    float: left;
+    height: 30%;
+    background: lightskyblue;
+    margin-top: 60%;
+}
+.yellow-right {
+    width: calc(100%/3);
+    float: left;
+    height: 30%;
+    background: yellow;
+    margin-top: 40%;
+}
+.orange-right {
+    width: calc(100%/3);
+    float: left;
+    height: 30%;
+    background: orange;
+    margin-top: 20%;
+}
+
+.text-1 {
+    float: right;
+    width: 80%;
+    height: 25%;
+    background: black;
+    margin-top: 30%;
+    color: blue;
+    text-align: center;
+}
+
+.text-2 {
+    float: left;
+    width: 80%;
+    height: 25%;
+    background: black;
+    margin-top: 10%;
+    color: blue;
+    text-align: center;
+}
+
+.basement {
+    background: black;
+    height: 500px;
+    clear: both;
+}
+
+.white-font {
+    color: white;
+}
