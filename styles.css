@@ -26,13 +26,13 @@ body{
 
 p {
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 h2 {
     text-align: center;
     background: silver;
-    margin: 0px;
+    margin: 0;
 }
 
 .float {
@@ -104,6 +104,7 @@ h2 {
 }
 
 .right-block {
+    position: relative;
     float: left;
     width: calc(100% / 3);
     height: 550px;
@@ -118,8 +119,9 @@ h2 {
     height: 91%;
 }
 .center-yellow {
+    position: relative;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0;
     float: left;
     margin-top: 32px;
     background: yellow;
@@ -136,41 +138,45 @@ h2 {
 }
 
 .A-c {
+    bottom: 0;
+    position: absolute;
     float: left;
-    margin-top: 19%;
     width: 50%;
     background: orange;
     height: 90%;
 }
 
 .B-c {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     float: left;
-    margin-top: 138%;
     width: 50%;
     background: red;
     height: 50%;
 }
 
 .blue-right {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
     width: calc(100%/3);
-    float: left;
     height: 30%;
     background: lightskyblue;
-    margin-top: 60%;
 }
 .yellow-right {
     width: calc(100%/3);
-    float: left;
     height: 30%;
+    margin: 180px auto;
     background: yellow;
-    margin-top: 40%;
 }
 .orange-right {
+    position: absolute;
+    right: 0;
+    top: 50px;
     width: calc(100%/3);
-    float: left;
     height: 30%;
     background: orange;
-    margin-top: 20%;
 }
 
 .text-1 {
